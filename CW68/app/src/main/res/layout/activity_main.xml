@@ -1,0 +1,59 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="317dp"
+        android:layout_marginLeft="674dp"
+        android:layout_marginStart="674dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_alignStart="@+id/switch1"
+        android:layout_marginBottom="54dp"
+        android:text="Services"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:ems="10"
+        android:text="--------"
+        android:textAlignment="center"
+        android:textColor="#26b1a1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:checked="false"
+        android:layout_marginTop="54dp"
+        android:textColor="#b3431e"
+        android:textStyle="bold"
+        android:text="Music Player  " />
+
+
+</RelativeLayout>

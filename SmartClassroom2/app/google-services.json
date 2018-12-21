@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "847659692386",
+    "firebase_url": "https://smartclassroom2.firebaseio.com",
+    "project_id": "smartclassroom2",
+    "storage_bucket": "smartclassroom2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847659692386:android:2d7429c9093ff6cb",
+        "android_client_info": {
+          "package_name": "classrooomproject.com.smartclassroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847659692386-3vluqtmbhan6l299pfscme5hsgjn2t61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "classrooomproject.com.smartclassroom",
+            "certificate_hash": "df69e3008793779e7ccd02365c42e4a8779cf4ab"
+          }
+        },
+        {
+          "client_id": "847659692386-ackb36smadehuih476padqkd00sgq42v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhgoz55VI-lqoh39UILbSMaJHocbdw7c4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847659692386-ackb36smadehuih476padqkd00sgq42v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

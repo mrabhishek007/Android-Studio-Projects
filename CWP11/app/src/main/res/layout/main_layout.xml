@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cwp11.MainLayoutActivity"
+    android:id="@+id/ll1"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:ems="10"
+        android:hint="1st No"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:ems="10"
+        android:hint="2nd No"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll2"
+        android:layout_marginBottom="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b1"
+            android:layout_marginRight="10dp"
+            android:text="+"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b2"
+            android:layout_marginRight="10dp"
+            android:text="-"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b3"
+            android:layout_marginRight="10dp"
+            android:text="*"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b4"
+            android:layout_marginRight="10dp"
+            android:text="/"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textStyle="bold"
+        android:textColor="#c3143d"
+        android:text=" ___________"
+        android:textSize="25sp"
+        />
+</LinearLayout>

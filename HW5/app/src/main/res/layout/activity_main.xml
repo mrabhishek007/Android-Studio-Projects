@@ -1,0 +1,58 @@
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tl"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <EditText
+    android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/et1"
+      android:hint="Amount"
+      android:inputType="numberDecimal"
+      android:gravity="center"
+      />
+ <TableRow
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/tr1"
+     android:layout_margin="10dp"
+     >
+     <Button
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:id="@+id/b1"
+         android:text="Deposit"
+         />
+     <Button
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:id="@+id/b2"
+         android:text="Withdraw"
+         />
+     <Button
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:id="@+id/b3"
+         android:text="BALANCE"
+         />
+ </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#033ce7"
+        android:id="@+id/tv1"
+        />
+
+
+
+
+
+    </TableLayout>

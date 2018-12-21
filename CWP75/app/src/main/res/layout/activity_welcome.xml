@@ -1,0 +1,43 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl2"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Welcome Vikash"
+        android:textColor="#ff0055"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="104dp"
+        android:text="Logout"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="-----------"
+        android:textColor="#12b995"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        />
+
+</RelativeLayout>

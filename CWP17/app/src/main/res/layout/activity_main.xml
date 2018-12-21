@@ -1,0 +1,36 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:id="@+id/spinner"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"></Spinner>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="arrayAdapter"
+        android:layout_marginBottom="76dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="136dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner" />
+
+</RelativeLayout>

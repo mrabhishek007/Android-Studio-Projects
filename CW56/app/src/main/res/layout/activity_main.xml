@@ -1,0 +1,55 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.design.widget.TabLayout
+    android:layout_width="match_parent"
+    android:id="@+id/tl"
+    app:tabMode="scrollable"
+    app:tabSelectedTextColor="#094d0c"
+    app:tabTextColor="#530c26"
+    android:layout_height="wrap_content">
+
+     <android.support.design.widget.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ti1"
+         android:text="Red"/>
+
+     <android.support.design.widget.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ti2"
+         android:text="Green"/>
+     <android.support.design.widget.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ti3"
+         android:text="Blue"/>
+     <android.support.design.widget.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ti4"
+         android:text="Voilet"/>
+     <android.support.design.widget.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ti5"
+         android:text="Orange"/>
+     <android.support.design.widget.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ti6"
+         android:text="Brown"/>
+</android.support.design.widget.TabLayout>
+     <fragment
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/fg1"
+         class="com.example.android.cw56.FragmentRed"
+         />
+
+</LinearLayout>

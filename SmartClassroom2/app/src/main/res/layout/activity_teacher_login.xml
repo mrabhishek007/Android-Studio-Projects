@@ -1,0 +1,82 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/teacher_login_page_ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/Project_bgcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ill_border">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Teacher Login"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Teacher Id"
+        android:id="@+id/til_teacher_login_id"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_teacher_login_id"
+            style="@style/edittext_style"
+            android:inputType="number"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/book"
+            android:maxLength="8"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:hint="Password"
+        app:passwordToggleEnabled="false"
+        app:passwordToggleTint="@color/text_color"
+        android:id="@+id/til_teacher_login_Password"
+        android:textColorHint="@color/text_color"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_teacher_login_password"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/padlock"
+            style="@style/edittext_style"
+            android:inputType="textPassword"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="@drawable/edittext_shape"
+        android:id="@+id/teacher_login_button"
+        style="@style/button_style"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        />
+
+
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>

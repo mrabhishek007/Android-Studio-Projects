@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CW36</string>
+    <string name="title_name">लॉगिन वाला पन्ना</string>
+    <string name="uname">उपयोगकर्ता नाम</string>
+    <string name="passw">पासवर्ड</string>
+    <string name="btn">" जमा करें"</string>
+</resources>

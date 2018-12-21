@@ -1,0 +1,55 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FingerPrint Authentication"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#2639e4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/ill"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/fgauth"
+            android:id="@+id/iv1"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv1"
+            android:layout_height="wrap_content"
+            android:text="Place fingure on sensor to authenticate"
+            android:textColor="#a733b9"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

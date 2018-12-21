@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="my_image">my_image</string>
+    <string name="john_snow">John Snow</string>
+    <string name="vikashgaurav_vkg_gmail_com">vikashgaurav.vkg@gmail.com</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="send_mail">Send mail</string>
+    <string name="drafts">Drafts</string>
+    <string name="subheader">Subheader</string>
+    <string name="all_mail">All mail</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+</resources>

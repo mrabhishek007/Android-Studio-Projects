@@ -1,0 +1,11 @@
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fbf0b5"
+    android:textStyle="bold"
+    android:fontFamily="serif"
+    android:text="dummy"
+    android:textColor="#000000"
+    android:padding="10dp"
+    android:textAlignment="center"
+    android:id="@+id/tv"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

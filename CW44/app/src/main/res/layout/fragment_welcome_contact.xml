@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fragmentbg"
+    tools:context="com.example.android.cw44.MyFragment1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ill6"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#be0948"
+            android:textStyle="bold"
+            android:text="@string/Contactus"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="#ed7c44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/Email"
+            android:id="@+id/email"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#284d15"
+            android:textSize="16sp"
+            android:id="@+id/callus"
+            android:text="@string/callus" />
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

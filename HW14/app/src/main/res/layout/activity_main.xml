@@ -1,0 +1,68 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="250dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="30dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/iv"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Rating"
+        android:maxLength="3"
+        android:id="@+id/et1"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:padding="10dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/b1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="120dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="View"
+            android:textAllCaps="false"
+            android:layout_marginRight="25dp"
+            android:id="@+id/b2"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>

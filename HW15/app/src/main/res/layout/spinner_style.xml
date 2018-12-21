@@ -1,0 +1,16 @@
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sv"
+    android:textColor="#6c0621"
+    android:padding="10dp"
+    android:textSize="15sp"
+    android:text="dummy"
+    android:background="#e4eaec"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif"
+    android:textAlignment="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+</TextView>

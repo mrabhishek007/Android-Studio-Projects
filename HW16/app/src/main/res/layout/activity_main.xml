@@ -1,0 +1,77 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotels"
+        android:textAllCaps="false"
+        android:id="@+id/b1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atms"
+        android:textAllCaps="false"
+        android:id="@+id/b2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restaurant"
+        android:textAllCaps="false"
+        android:id="@+id/b3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schools"
+        android:textAllCaps="false"
+        android:id="@+id/b4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pharmacy"
+        android:textAllCaps="false"
+        android:id="@+id/b5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitals"
+        android:textAllCaps="false"
+        android:id="@+id/b6"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Stop"
+        android:textAllCaps="false"
+        android:id="@+id/b7"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Railway Stations"
+        android:textAllCaps="false"
+        android:id="@+id/b8"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:textAllCaps="false"
+        android:id="@+id/b9"
+        />
+
+
+
+
+</LinearLayout>

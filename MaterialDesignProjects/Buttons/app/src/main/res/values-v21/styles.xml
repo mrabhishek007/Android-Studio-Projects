@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RaisedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/colorRaisedButton</item>
+    </style>
+</resources>

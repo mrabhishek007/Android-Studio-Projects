@@ -1,0 +1,45 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="Internal Storage"
+        android:textColor="#f0f"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"/>
+
+
+    <EditText
+        android:hint="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:ems="10"
+        />
+
+
+    <EditText
+        android:hint="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:ems="10"
+        android:layout_margin="15dp"/>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Login"
+        />
+
+
+
+</LinearLayout>

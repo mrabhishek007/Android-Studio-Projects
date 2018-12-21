@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZingoHotel</string>
+    <string name="mobile_verify">Mobile Verification</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="verifyotp">Verify OTP</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Update Employee Details"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#f00"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="ID NO"
+            android:maxLength="4"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText6"
+            android:layout_alignStart="@+id/editText6"
+            android:layout_below="@+id/editText6"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Employee Name"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="8"
+            android:hint="Salary"
+            android:gravity="center"
+            android:layout_below="@+id/editText7"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignStart="@+id/editText7" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Update"
+            android:onClick="updateDb"
+            android:layout_below="@+id/editText8"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Delete"
+            android:onClick="deleteDb"
+            android:layout_below="@+id/button6"
+            android:layout_alignLeft="@+id/button6"
+            android:layout_alignStart="@+id/button6" />
+    </RelativeLayout>
+</LinearLayout>

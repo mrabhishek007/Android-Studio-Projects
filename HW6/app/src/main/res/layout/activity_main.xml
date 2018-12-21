@@ -1,0 +1,67 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textStyle="bold"
+        android:textColor="#010101"
+        android:text="LOGIN PAGE"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Username"
+       android:fontFamily="monospace"
+        android:gravity="center"
+        android:inputType="text"
+        android:maxLength="12" />
+
+    <EditText
+        android:inputType="numberPassword"
+        android:layout_margin="20dp"
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:gravity="center"
+        android:maxLength="8"
+        android:fontFamily="monospace"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/b1"
+        android:text="Login"
+        android:textStyle="bold"
+        android:onClick="validate"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:textStyle="bold"
+        android:text="                                "
+        android:textSize="20dp"
+        android:layout_gravity="center" />
+
+
+
+
+</LinearLayout>

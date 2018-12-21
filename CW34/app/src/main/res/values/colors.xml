@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myshapedrawable">#3bb3f4</color>
+    <color name="Mystroke">#0e5d0b</color>
+    <color name="onpressed">#ebf442</color>
+    <color name="onChecked">#f00</color>
+    <color name="defaulcolor">#f4751b</color>
+</resources>

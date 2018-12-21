@@ -1,0 +1,54 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        style="@style/Title"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/drawres"
+        android:ems="10"
+        android:hint="@string/uname"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/drawres"
+        android:ems="10"
+        android:hint="@string/pwd"
+        android:inputType="textPersonName"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Buttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="@string/Submit_butttonname" />
+</RelativeLayout>

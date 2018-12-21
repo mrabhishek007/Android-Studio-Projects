@@ -1,0 +1,137 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/teacher_fragment_ll1"
+    android:background="@color/Project_bgcolor"
+    android:orientation="vertical"
+   android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Mr. Vikash"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="80dp"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textColor="@color/text_color"
+        android:id="@+id/welcomemsg_tv"/>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/daily_routine_update_ill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Routine"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:textSize="18dp"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:hint="Chapter Name"
+        android:id="@+id/teacher_chapter_til"
+        android:textColorHint="@color/text_color"
+        android:layout_height="wrap_content">
+
+   <EditText
+       style="@style/edittext_style"
+       android:drawablePadding="10dp"
+       android:drawableLeft="@drawable/book"
+       android:id="@+id/teacher_chapter_et"
+      android:inputType="text"
+       android:digits="0123456789:,.- QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
+    />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:hint="Topic Name"
+        android:layout_margin="15dp"
+        android:id="@+id/teacher_topics_til"
+        android:textColorHint="@color/text_color"
+        android:layout_height="wrap_content">
+
+        <EditText
+            style="@style/edittext_style"
+            android:id="@+id/teacher_topics_et"
+            android:drawableLeft="@drawable/topic"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:digits="0123456789:,.- QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:id="@+id/teacher_dateselector"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/calendar"
+       />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="7"
+                android:textColor="@color/text_color"
+                android:hint="dd-mm-yyyy"
+                android:textColorHint="@color/text_color"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/teacher_dateselector_tv"
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+    <Button
+        android:background="@drawable/edittext_shape"
+        android:id="@+id/teacher_submitdailyreport"
+        style="@style/button_style"
+        android:layout_marginTop="10sp"
+        android:text="Save"
+        />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/teacher_logout_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/text_color"
+        android:text="LogOut      "
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

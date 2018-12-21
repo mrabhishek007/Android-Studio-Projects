@@ -1,0 +1,13 @@
+<ListView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/lv"
+    android:divider="#00ffb7"
+    android:dividerHeight="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+
+
+    </ListView>

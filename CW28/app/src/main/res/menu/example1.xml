@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/it1"
+        android:title="Camera"
+        android:icon="@drawable/camera"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/it2"
+        android:title="Browser"
+        android:icon="@drawable/chrome"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/it3"
+        android:title="Photos"
+        android:icon="@drawable/picture"
+        app:showAsAction="always"/>
+
+
+
+
+</menu>

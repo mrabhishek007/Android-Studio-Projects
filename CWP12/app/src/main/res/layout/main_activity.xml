@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cwp12.MainActivity"
+    android:id="@+id/ll1"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1st NUMBER"
+        android:background="#5ccac4"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/et1"
+
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="OPERATOR"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/et2"
+        android:background="#736714"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="2nd NUMBER"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/et3"
+        android:background="#5ccac4"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:id="@+id/b1"
+        android:textStyle="bold"
+        android:background="#4a4a4d"
+        android:textColor="#e879e9"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:ems="7"
+        android:text="_______________"
+        android:textStyle="bold"
+        />
+
+
+
+    </LinearLayout>

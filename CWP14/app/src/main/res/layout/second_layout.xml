@@ -1,0 +1,55 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl2"
+    android:background="#8f9a96"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="4"
+        android:hint="ID NO" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Details" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:textColor="#20ff03"
+        android:textStyle="bold"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:textColor="#20ff03"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:text="" />
+</RelativeLayout>

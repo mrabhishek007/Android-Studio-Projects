@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Smart Classroom</string>
+    <string name="title_activity_my_teacher_home">MyTeacherHomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Teacher Tab Layout Title -->
+    <string name="teacher_tabtitle1">Lecture</string>
+    <string name="teacher_tabtitle2">Update</string>
+    <string name="teacher_tabtitle3">students</string>
+    <string name="teacher_tabtitle4">Complaints</string>
+    <string name="student_tabtitle1">Lectures</string>
+    <string name="student_tabtitle2">All Lectures</string>
+    <string name="student_tabtitle3">Complaints</string>
+
+
+</resources>

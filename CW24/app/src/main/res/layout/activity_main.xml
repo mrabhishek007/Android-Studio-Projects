@@ -1,0 +1,50 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <ToggleButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:checked="false"
+       android:textOff="off"
+       android:textOn="on"
+       android:id="@+id/tb1"
+       android:layout_marginTop="93dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw1"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/tb1"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textOff="Stop"
+        android:textOn="start"
+        android:id="@+id/tb3"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/sw1"
+        android:layout_alignLeft="@+id/tb1"
+        android:layout_alignStart="@+id/tb1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tb3"
+        android:layout_alignRight="@+id/tb3"
+        android:layout_below="@+id/tb3"
+        android:layout_marginTop="60dp"
+        android:thumb="@drawable/bluetooth"
+        android:track="@drawable/circular1"/>
+
+
+</RelativeLayout>

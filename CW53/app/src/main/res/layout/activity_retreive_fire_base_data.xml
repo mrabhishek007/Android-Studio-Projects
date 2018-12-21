@@ -1,0 +1,101 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cf66503f"
+    android:id="@+id/ll2"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#8c0832"
+        android:text="View , Update , Delete Data Using Firebase"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="15sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/ill1">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/et6"
+        android:maxLength="8"
+        android:hint="Idno"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Search"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/b3"
+            android:textAllCaps="false"
+            android:layout_marginBottom="40dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:visibility="gone"
+            android:id="@+id/et8"
+            android:hint="Name"/>
+        <EditText
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/et9"
+            android:hint="Age"/>
+        <EditText
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/et10"
+            android:hint="Contact_no"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ill2"
+    android:orientation="horizontal">
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/b4"
+            android:text="Update"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_marginLeft="30dp"
+            android:textAllCaps="false"/>
+    <Button
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/b5"
+        android:text="Delete"
+        android:layout_marginLeft="90dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

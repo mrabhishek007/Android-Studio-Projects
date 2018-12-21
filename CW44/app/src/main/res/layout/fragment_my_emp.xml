@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Fragmentbg"
+    tools:context="com.example.android.cw44.MyAdminFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ill5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="cursive"
+            android:text="@string/emplogin"
+            android:textColor="#f00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:textColorHint="#175de8"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/til3"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/my_shape_style"
+                android:hint="@string/uname"
+                android:ems="10"
+                android:inputType="text"
+                android:id="@+id/et3"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="230dp"
+            android:textColorHint="#1752e8"
+            android:layout_height="60dp"
+            android:id="@+id/til4"
+            app:passwordToggleEnabled="true"
+            app:counterEnabled="true"
+            app:passwordToggleTint="#24540d"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/pwd"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:background="@drawable/my_shape_style"
+                android:id="@+id/et4"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text= "@string/Login"
+            android:textColor="#f0630b"
+            android:textAllCaps="false"
+            android:background="@drawable/my_shape_style"
+            android:layout_marginTop="20dp"
+            android:id="@+id/b7"
+
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

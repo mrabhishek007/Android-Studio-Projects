@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv2">होम</string>
+    <string name="tv3">व्यवस्थापक</string>
+    <string name="tv4">कर्मचारी</string>
+    <string name="tv5">खोज</string>
+    <string name="tv1">हमारे साथ यात्रा करे</string>
+    <string name="app_name">यात्रा एप्लिकेशन</string>
+    <string name="tv6">संपर्क करें</string>
+    <string name="adminlogin">व्यवस्थापक लॉगिन पृष्ठ</string>
+    <string name="emplogin">कर्मचारी लॉगिन पृष्ठ</string>
+    <string name="uname">उपयोगकर्ता नाम</string>
+    <string name="pwd">पासवर्ड</string>
+    <string name="Login">लॉग इन करे</string>
+    <string name="Contactus">हमसे संपर्क करे : </string>
+    <string name="callus">फोन करे</string>
+    <string name="Email">ईमेल करें - Vikashgaurav.vkg@gmail.com</string>
+    <string name="wca">व्यवस्थापक का स्वागत है</string>
+    <string name="wce">कर्मचारी का स्वागत है</string>
+    <string name="iuop">उपयोगकर्ता का नाम या पासवर्ड गलत है</string>
+    <string name="loginsuccess">लॉगिन सफल हुआ</string>
+    <string name="ANF">ऐप इंस्टॉल नहीं है</string>
+</resources>

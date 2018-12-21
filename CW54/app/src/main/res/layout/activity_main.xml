@@ -1,0 +1,42 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/tv"
+        android:textAlignment="center"
+        android:textColor="#22dc15"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="____________"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/tv1"
+        android:textAlignment="center"
+        android:textColor="#dc5e15"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="____________"/>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

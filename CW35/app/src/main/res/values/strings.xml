@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CW35</string>
+
+    <string name="Submit_butttonname">Submit</string>
+    <string name="uname">Username</string>
+    <string name="pwd">Password</string>
+
+</resources>

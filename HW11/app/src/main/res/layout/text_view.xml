@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/m_image" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/inner"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/m_name"
+            android:layout_marginBottom="10dp"
+            android:text="Dawn of the Planet of the Apes"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textColor="#F00"/>
+        <TableLayout
+            android:layout_marginRight="5dp"
+            android:id="@+id/innerinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/d_name"
+                    android:text="Dawn of the Planet of the Apes"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textAlignment="textEnd"
+                    android:textColor="#2200ff"/>
+
+                <ImageView
+                    android:layout_margin="5dp"
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/d_image"
+                  />
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+                <ImageButton
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/like"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/thumbs_up"/>
+                <ImageButton
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/dislike"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/thumbs_down"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/like_status"
+                    android:layout_marginBottom="10dp"
+                    android:text="Status"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#0ba400"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</LinearLayout>

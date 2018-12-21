@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/grid_layout_id"
+        android:layout_width="368dp"
+        android:layout_height="368dp"
+        android:layout_marginBottom="71dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/board"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/winner_txt"
+        app:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imageView_row1col1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:tag="0" />
+
+        <ImageView
+            android:id="@+id/imageView_row1col2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/imageView_row1col3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:tag="2" />
+
+        <ImageView
+            android:id="@+id/imageView_row2col1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:tag="3" />
+
+        <ImageView
+            android:id="@+id/imageView_row2col2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:tag="4" />
+
+        <ImageView
+            android:id="@+id/imageView_row2col3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:tag="5" />
+
+        <ImageView
+            android:id="@+id/imageView_row3col1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:tag="6" />
+
+        <ImageView
+            android:id="@+id/imageView_row3col2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:tag="7" />
+
+        <ImageView
+            android:id="@+id/imageView_row3col3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:tag="8" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/winner_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="Winner"
+        android:text="TextView"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:typeface="normal"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:fontFamily="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/grid_layout_id"
+        app:layout_constraintEnd_toStartOf="@+id/retry_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/retry_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="#305edd"
+        android:text="Play again"
+        android:textColor="#fff"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/winner_txt"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

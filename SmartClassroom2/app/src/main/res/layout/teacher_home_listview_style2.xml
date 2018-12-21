@@ -1,0 +1,53 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:id="@+id/teacher_lv_style_ll2"
+    android:background="@color/Project_bgcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+           >
+
+            <TextView
+                android:id="@+id/teacher_date_tv"
+                android:padding="5dp"
+                style="@style/textview_style"
+                android:text="Date"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_margin="2dp"
+                android:layout_height="75dp"
+                 />
+
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+                style="@style/textview_style"
+                android:id="@+id/teacher_chapter_tv"
+                android:text="Chapter"
+                android:layout_width="230dp"
+                android:layout_height="75dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/teacher_topics_tv"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/textview_style"
+        android:text="Topics"
+        />
+
+</LinearLayout>

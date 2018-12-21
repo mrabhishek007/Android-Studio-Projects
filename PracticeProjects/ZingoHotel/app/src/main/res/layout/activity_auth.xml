@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/auth_layout"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity">
+
+    <include layout="@layout/toolbar"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:id="@+id/auth_toolbar" />
+
+    <ImageView
+        android:id="@+id/phoneicon"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phone" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:color/transparent"
+        android:hint="Phone Number"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/ll_otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/phoneicon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/mobile_pb"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="60dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:theme="@style/ProgressBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/phoneno"
+        app:layout_constraintTop_toTopOf="@+id/auth_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/ll_otp"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="52dp"
+        android:visibility="invisible"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phoneno">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="52dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/unlock" />
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="287dp"
+            android:layout_height="52dp"
+            android:background="@android:color/transparent"
+            android:hint="OTP"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:textAlignment="center" />
+
+        <ProgressBar
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="60dp"
+            android:layout_height="52dp"
+            android:id="@+id/otpPgBar"
+            android:theme="@style/ProgressBarTheme" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verify_otp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+        android:text="SEND VERIFICATION"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_otp"
+        app:layout_constraintVertical_bias="0.94" />
+
+
+</android.support.constraint.ConstraintLayout>

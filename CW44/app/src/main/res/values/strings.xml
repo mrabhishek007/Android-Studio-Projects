@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Travel App</string>
+    <string name="tv1">Travel With Us</string>
+    <string name="tv2">Home</string>
+    <string name="tv3">Admin</string>
+    <string name="tv4">Employee</string>
+    <string name="tv5">Track</string>
+    <string name="tv6">Contact</string>
+    <string name="adminlogin">Admin Login</string>
+    <string name="emplogin">Employee Login</string>
+    <string name="uname">Username</string>
+    <string name="pwd">Password</string>
+    <string name="Login">Login</string>
+    <string name="Contactus">Contact Us : </string>
+    <string name="callus">Call us</string>
+    <string name="Email">Email - Vikashgaurav.vkg@gmail.com</string>
+    <string name="wca">Welcome Admin</string>
+    <string name="wce">Welcome Employee</string>
+    <string name="iuop">Invalid Username or Password</string>
+    <string name="loginsuccess">Login Successfull</string>
+    <string name="ANF">App Not Installed</string>
+
+
+    <string name="travel_notes">A travel website is a website on the world wide web that is dedicated to travel. The site may be focused on travel reviews, trip fares, or a combination of both. Approximately seventy million consumers researched travel plans online in July 2006.[1] Travel bookings are the single largest component of e-commerce, according to Forrester Research.Travelogues
+Many travel websites are online travelogues or travel journals, usually created by individual travelers and hosted by companies that generally provide their information to consumers for free.[2] These companies generate revenue through advertising or by providing services to other businesses. This medium produces a wide variety of styles, often incorporating graphics, photography, maps, and other unique content. Some examples of websites that use a combination of travel reviews and the booking of travel are TripAdvisor, Priceline, Liberty Holidays, and Expedia.
+Service providers
+Individual airlines, hotels, bed and breakfasts, cruise lines, automobile rental companies, and other travel-related service providers often maintain their own web sites providing retail sales. Many with complex offerings include some sort of search engine technology to look for bookings within a certain timeframe, service class, geographic location, or price range.
+Online travel agencies
+An online travel agency (OTA) specializes in offering planning sources and booking capabilities.[3] Major OTAs include:
+Voyages-sncf.com – revenue €2.23 billion (2008)[4]
+Expedia, Inc., including Expedia.com, Hotels.com, Hotwire.com, Travelocity and others – revenue US$2.937 billion (2008),[5] later expanded to include Orbitz Worldwide, Inc., including Orbitz, CheapTickets, ebookers, and others – revenue US$870 million (2008)[6]
+Sabre Holdings, including lastminute.com and others – revenue US$2.9 billion (2008)[7]
+Opodo – revenue €1.3 billion (2008)[8]
+The Priceline Group, including Priceline.com, Booking.com, Agoda.com, Kayak.com, OpenTable and others – revenue US$1.9 billion (2008)[9]
+Travelgenio – revenue €344 million (2014)[10]
+Wotif.com – revenue A$145 million (2012)[11]
+Webjet – revenue A$59.3 million (2012)[12]
+Fare aggregators and metasearch engines
+The average consumer visits 3.6 sites when shopping for an airline ticket online, according to PhoCusWright, a Sherman, CT-based travel technology firm.[citation needed] Yahoo claims 76% of all online travel purchases are preceded by some sort of search function, according to Malcolmson, director of product development for Yahoo Travel.[citation needed] The 2004 Travel Consumer Survey published by Jupiter Research reported that "nearly two in five online travel consumers say they believe that no one site has the lowest rates or fares."[citation needed] Thus a niche has existed for aggregate travel search to find the lowest rates from multiple travel sites, obviating the need for consumers to cross-shop from site to site, with traveling searching occurring quite frequently.[13]
+Metasearch engines are so named as they conduct searches across multiple independent search engines. Metasearch engines often make use of "screen scraping" to get live availability of flights. Screen scraping is a way of crawling through the airline websites, getting content from those sites by extracting data from the same HTML feed used by consumers for browsing (rather than using a Semantic Web or database feed designed to be machine-readable). Metasearch engines usually process incoming data to eliminate duplicate entries, but may not expose "advanced search" options in the underlying databases (because not all databases support the same options).[citation needed]
+Fare aggregators redirect the users to an airline, cruise, hotel, or car rental site or Online Travel Agent for the final purchase of a ticket. Aggregators' business models include getting feeds from major OTAs, then displaying to the users all of the results on one screen. The OTA then fulfills the ticket. Aggregators generate revenues through advertising and charging OTAs for referring clients.[citation needed] Examples of aggregate sites are Bravofly,[14] Cheapflights, Priceline, Expedia, Reservations.com, Kayak.com, Momondo, LowEndTicket, FareBuzz and CheapOair.[15] Kayak.com is unusual in linking to online travel agencies and hotel web sites alike, allowing the customer to choose whether to book directly on the hotel web site or through an online travel agency. Google Hotel Finder is an experiment that allows to find hotel prices with Google, however it does not offer to book hotels, merely to compare rates.[16]
+The difference between a "fare aggregator" and "metasearch engine" is unclear, though different terms may imply different levels of cooperation between the companies involved.
+In 2008, Ryanair threatened to cancel all bookings made on Ryanair flights made through metasearch engines, but later allowed the sites to operate as long as they did not resell tickets or overload Ryanair's servers.[17]
+In 2015, Lufthansa Group (including Lufthansa, Austrian Airlines, Brussels Airlines and Swiss) announced adding surcharge for flights booked on other sites.[citation needed]
+Bargain sites
+Travel bargain websites collect and publish bargain rates by advising consumers where to find them online (sometimes but not always through a direct link). Rather than providing detailed search tools, these sites generally focus on offering advertised specials, such as last-minute sales from travel suppliers eager to deplete unused inventory; therefore, these sites often work best for consumers who are flexible about destinations and other key itinerary components.
+Travel and tourism guides
+Many websites take the form of a digital version of a traditional guide book, aiming to provide advice on which destinations, attractions, accommodations, and so on, are worth a visit and providing information on how to access them.
+Most states, provinces and countries have their own convention and visitor bureaus, which usually sponsor a website dedicated to promoting tourism in their respective regions. Cities that rely on tourism also operate websites promoting their destinations, such as VEGAS.com for Las Vegas, Nevada.
+Student travel agencies
+Some travel websites cater specifically to the college student audience and list exclusive airfare deals and travel products. Significant sites in this area include StudentUniverse and STA Travel.
+Social travel website
+A social travel website is a type of travel website that will look at where the user is going and pair them with other places they want to go based on where other people have gone.[18] This can help the traveler gain insight of the destination, people, culture before travel and become aware of the places the user is willing to visit.
+Copyleft travel websites</string>
+
+
+</resources>

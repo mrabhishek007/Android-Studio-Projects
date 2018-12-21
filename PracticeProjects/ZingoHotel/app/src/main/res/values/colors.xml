@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#6e6e6e</color>
+</resources>

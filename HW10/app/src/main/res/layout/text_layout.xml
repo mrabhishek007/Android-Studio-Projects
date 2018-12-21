@@ -1,0 +1,15 @@
+
+
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="dummy1"
+    android:layout_marginRight="50dp"
+    android:textSize="15sp"
+    android:textAlignment="center"
+    android:textColor="#d13636"
+    android:textStyle="bold"
+    android:id="@+id/textView"
+    android:fontFamily="casual"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+

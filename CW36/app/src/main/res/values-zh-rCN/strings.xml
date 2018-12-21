@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CW36</string>
+    <string name="title_name">登录页面</string>
+    <string name="uname">" 用户名"</string>
+    <string name="passw">密码</string>
+    <string name="btn">提交</string>
+</resources>

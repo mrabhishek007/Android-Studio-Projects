@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fragmentbg"
+    tools:context="com.example.android.cw44.MyFragment2">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ill2"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/home"
+        android:text="@string/tv2"
+        android:textAllCaps="false"
+        android:id="@+id/b1"
+        android:textColor="#288ce9"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/admin"
+        android:text="@string/tv3"
+        android:textAllCaps="false"
+        android:id="@+id/b2"
+        android:textColor="#288ce9"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/employee"
+        android:text="@string/tv4"
+        android:textAllCaps="false"
+        android:id="@+id/b3"
+        android:textColor="#288ce9"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/placeholder"
+        android:text="@string/tv5"
+        android:textAllCaps="false"
+        android:id="@+id/b4"
+        android:textColor="#288ce9"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/telephone"
+        android:text="@string/tv6"
+        android:textAllCaps="false"
+        android:id="@+id/b5"
+        android:textColor="#288ce9"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+
+</LinearLayout>
+
+</FrameLayout>

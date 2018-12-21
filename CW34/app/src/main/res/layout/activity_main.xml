@@ -1,0 +1,42 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:textColor="@color/colorstatelist"
+        android:background="@drawable/shape_drawable"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/shape_drawable"
+        android:layout_marginRight="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="77dp"
+        android:textColor="@color/colorstatelist"
+        android:text="CheckBox" />
+</RelativeLayout>

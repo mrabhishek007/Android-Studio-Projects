@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/it1"
+        android:title="Camera"
+        android:icon="@drawable/camera"
+        app:showAsAction="always">
+
+          <menu>
+
+              <item
+                  android:id="@+id/it2"
+                  android:title="Video Camera"
+                  />
+
+              <item
+                  android:id="@+id/it3"
+                  android:title="Photo Camera"
+                  />
+
+              <item
+                  android:id="@+id/it4"
+                  android:title="Photos"/>
+
+
+          </menu>
+    </item>
+
+    <item
+        android:id="@+id/it5"
+        android:title="Chat">
+
+        <menu>
+
+    <item
+        android:id="@+id/it6"
+        android:title="Whatsapp"/>
+
+     <item
+         android:id="@+id/it7"
+         android:title="Messenger"/>
+
+            <item
+                android:id="@+id/it8"
+                android:title="Gmail"/>
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/it9"
+        android:title="Settings"/>
+
+
+</menu>

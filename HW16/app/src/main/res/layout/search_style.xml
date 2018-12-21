@@ -1,0 +1,68 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/ll2"
+    android:orientation="vertical"
+
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_marginBottom="10dp"
+    android:src="@drawable/error"
+    android:id="@+id/iv"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="Search"
+        android:id="@+id/et1"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Search"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigation"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv"
+        android:textSize="25sp"
+        android:textColor="#f12d57"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="From"
+        android:id="@+id/et2"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:hint="To"
+        android:id="@+id/et3"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Start"
+        android:textAllCaps="false" />
+
+
+
+
+</LinearLayout>

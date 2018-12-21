@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_registration_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Project_bgcolor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/ill_border"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:id="@+id/ill_user_registration_dialog"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Registeration"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="@color/text_color"
+        android:layout_width="wrap_content"
+        android:id="@+id/til_user_registration_name"
+        android:hint="Name"
+        android:layout_height="wrap_content">
+
+        <!-- android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ" -->
+    <EditText
+        android:id="@+id/user_registration_name"
+        style="@style/edittext_style"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/text_color"
+         />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Mobile No"
+        android:id="@+id/til_user_registration_mobile"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/user_registration_mobile"
+        style="@style/edittext_style"
+        android:inputType="number"
+        android:maxLength="10"
+         />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="@color/text_color"
+        android:hint="Email"
+        android:layout_width="wrap_content"
+        android:id="@+id/til_user_registration_email"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/user_registration_email"
+        style="@style/edittext_style"
+        android:inputType="textEmailAddress"
+       />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="@drawable/edittext_shape"
+        android:id="@+id/user_register_button"
+        style="@style/button_style"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CW66</string>
+    <string name="Unit_id">ca-app-pub-4030644749461494/5459893288</string>
+    <string name="banner_ad_unit_iddemo">ca-app-pub-3940256099942544/6300978111</string><!-- This id is only for ademonstration purposes.Use above original unit id for real life use-->
+</resources>

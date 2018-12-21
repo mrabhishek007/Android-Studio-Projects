@@ -1,0 +1,64 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#645f64"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:ems="12"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="#c70344"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:ems="12"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textColor="#c70344"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:ems="12"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#c70344"
+      />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text="Save"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="saveInDatabase"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:textAllCaps="false"
+        android:onClick="viewById"
+        android:text="View"/>
+
+    </LinearLayout>

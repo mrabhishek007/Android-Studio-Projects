@@ -1,0 +1,54 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll1"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/fg1"
+        android:layout_marginBottom="2dp"
+        class="com.example.android.cw44.MyFragment1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ll2">
+
+
+
+        <fragment
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fg2"
+            class="com.example.android.cw44.MyFragment2"/>
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            class="com.example.android.cw44.MyFragment3"
+            android:id="@+id/fg3"/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

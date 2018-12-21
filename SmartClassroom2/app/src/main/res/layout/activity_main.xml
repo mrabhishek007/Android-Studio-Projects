@@ -1,0 +1,30 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainll"
+    android:orientation="vertical"
+    android:background="@color/Project_bgcolor"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainiv"
+        android:src="@drawable/teach"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/mainprogressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:layout_marginTop="30dp"
+        android:progress="1"
+        />
+
+
+</LinearLayout>

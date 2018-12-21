@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "572910909665",
+    "firebase_url": "https://zingohotel-4967b.firebaseio.com",
+    "project_id": "zingohotel-4967b",
+    "storage_bucket": "zingohotel-4967b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572910909665:android:a458cf624297a19c",
+        "android_client_info": {
+          "package_name": "com.example.vikash.zingohotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572910909665-i07pjs4o52j8f8358jajvpfafkmgt3ep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vikash.zingohotel",
+            "certificate_hash": "2a8fa29076a905e56d526bd9efec26af8fafd656"
+          }
+        },
+        {
+          "client_id": "572910909665-uei3hv5t1o4mj4ss3snk64unns44qti9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlQak95JWao9WuQLe-yrTJkxbSco-QQWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572910909665-uei3hv5t1o4mj4ss3snk64unns44qti9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
